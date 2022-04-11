@@ -1,0 +1,32 @@
+#toggler-container{
+    gap: 15px;
+    height: 54px;
+    width: 214;
+    border-radius: 75px;
+
+    form{
+        label{
+            height: 44px;
+            width: 112px;
+            padding: .5em;
+            border-radius: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        input{
+            position: absolute;
+            opacity: 0;
+            z-index: -1;
+        }
+        .active-label{
+            background-color: $secondary;
+            color: white;
+            transition: .5s;
+        }
+    }
+}
+.card{
+    min-width: 20%;
+}

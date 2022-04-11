@@ -1,0 +1,12 @@
+
+.main-gallery{
+    gap: 30px;
+    .gallery-row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        img{
+            max-width: 434px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+
+.owl-carousel{
+    max-height: 446px;
+    .product-item{
+        aspect-ratio: 4/3;
+        overflow: hidden;
+        margin-block: 5%;
+        max-height: 446px;
+        
+        img{
+            object-fit: fill;
+        }
+    }
+
+}
